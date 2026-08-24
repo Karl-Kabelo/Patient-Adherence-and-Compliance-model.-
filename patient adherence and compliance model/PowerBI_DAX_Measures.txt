@@ -1,0 +1,103 @@
+-- Recommended model:
+-- dim_patient[patient_id] 1:* fact_patient_month[patient_id]
+-- dim_date[Date] 1:* fact_patient_month[month_start]
+-- Use a marked Date table.
+
+Total Prescribed Sessions :=
+SUM ( fact_patient_month[sessions_prescribed] )
+
+Total Attended Sessions :=
+SUM ( fact_patient_month[sessions_attended] )
+
+Weighted Adherence % :=
+DIVIDE ( [Total Attended Sessions], [Total Prescribed Sessions] )
+
+Mean Patient Adherence % :=
+AVERAGE ( fact_patient_month[monthly_adherence_rate] )
+
+Enrolled Patients :=
+DISTINCTCOUNT ( dim_patient[patient_id] )
+
+Dropped-Out Patients :=
+CALCULATE (
+    DISTINCTCOUNT ( fact_patient_month[patient_id] ),
+    fact_patient_month[protocol_status] = "Dropped Out"
+)
+
+Dropout Rate % :=
+DIVIDE ( [Dropped-Out Patients], [Enrolled Patients] )
+
+At-Risk Patients :=
+CALCULATE (
+    DISTINCTCOUNT ( fact_patient_month[patient_id] ),
+    fact_patient_month[protocol_status] = "At Risk"
+)
+
+Trailing 3-Month Adherence % :=
+VAR EndDate = MAX ( dim_date[Date] )
+RETURN
+DIVIDE (
+    CALCULATE (
+        [Total Attended Sessions],
+        DATESINPERIOD ( dim_date[Date], EndDate, -3, MONTH )
+    ),
+    CALCULATE (
+        [Total Prescribed Sessions],
+        DATESINPERIOD ( dim_date[Date], EndDate, -3, MONTH )
+    )
+)
+
+Trailing 6-Month Adherence % :=
+VAR EndDate = MAX ( dim_date[Date] )
+RETURN
+DIVIDE (
+    CALCULATE (
+        [Total Attended Sessions],
+        DATESINPERIOD ( dim_date[Date], EndDate, -6, MONTH )
+    ),
+    CALCULATE (
+        [Total Prescribed Sessions],
+        DATESINPERIOD ( dim_date[Date], EndDate, -6, MONTH )
+    )
+)
+
+Prior Month Adherence % :=
+CALCULATE ( [Weighted Adherence %], DATEADD ( dim_date[Date], -1, MONTH ) )
+
+MoM Adherence Change (pp) :=
+( [Weighted Adherence %] - [Prior Month Adherence %] ) * 100
+
+Patients Needing Intervention :=
+CALCULATE (
+    DISTINCTCOUNT ( fact_patient_month[patient_id] ),
+    FILTER (
+        fact_patient_month,
+        fact_patient_month[monthly_adherence_rate] < 0.5
+            || fact_patient_month[protocol_status] = "Dropped Out"
+    )
+)
+
+Intervention Rate % :=
+DIVIDE ( [Patients Needing Intervention], [Enrolled Patients] )
+
+Average Risk Score :=
+AVERAGE ( fact_patient_month[risk_score] )
+
+Adherence Target Variance (pp) :=
+( [Weighted Adherence %] - 0.80 ) * 100
+
+Cohort Rank by Dropout :=
+RANKX (
+    ALLSELECTED ( dim_patient[primary_risk_cohort] ),
+    [Dropout Rate %],
+    ,
+    DESC,
+    DENSE
+)
+
+Tooltip Cohort Summary :=
+"Adherence: " & FORMAT ( [Weighted Adherence %], "0.0%" )
+& UNICHAR(10) &
+"Dropout: " & FORMAT ( [Dropout Rate %], "0.0%" )
+& UNICHAR(10) &
+"At risk: " & FORMAT ( [At-Risk Patients], "#,0" )

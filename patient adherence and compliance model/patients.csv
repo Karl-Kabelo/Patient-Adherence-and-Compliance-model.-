@@ -1,0 +1,251 @@
+patient_id,patient_code,gender,age,primary_risk_cohort,comorbidity_count,baseline_risk_score,site,funding_type,employment_status,transport_mode,distance_km,programme_type,enrolment_date
+1,P00001,Male,18,Cardiovascular,0,31,Cape Town Central,Private Medical Aid,Employed,Public Transport,3.7,Cardiac Rehabilitation,2025-01-01
+2,P00002,Male,59,Metabolic,0,39,Northern Suburbs,Public Referral,Student,Walking,9.1,Weight Management,2025-01-01
+3,P00003,Female,37,Musculoskeletal,0,43,Northern Suburbs,Self-Pay,Unemployed,Public Transport,8.0,Musculoskeletal Rehabilitation,2025-03-01
+4,P00004,Male,49,Diabetes,2,67,Southern Suburbs,Self-Pay,Employed,Public Transport,1,Diabetes Exercise Programme,2025-03-01
+5,P00005,Female,41,Metabolic,3,63,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,16.1,Weight Management,2025-03-01
+6,P00006,Female,20,Musculoskeletal,2,45,Southern Suburbs,Private Medical Aid,Retired,Private Vehicle,5.4,Musculoskeletal Rehabilitation,2025-03-01
+7,P00007,Male,58,Diabetes,1,58,Northern Suburbs,Public Referral,Retired,Walking,28.6,Diabetes Exercise Programme,2025-03-01
+8,P00008,Female,49,Metabolic,1,49,Cape Town Central,Public Referral,Employed,Private Vehicle,26.1,Weight Management,2025-03-01
+9,P00009,Male,28,Metabolic,1,50,Cape Town Central,Public Referral,Employed,Public Transport,1,Weight Management,2025-01-01
+10,P00010,Male,57,Metabolic,1,56,Cape Town Central,Private Medical Aid,Unemployed,Public Transport,18.2,Weight Management,2025-02-01
+11,P00011,Female,69,Metabolic,1,71,Northern Suburbs,Public Referral,Employed,Private Vehicle,21.6,Weight Management,2025-02-01
+12,P00012,Male,38,Metabolic,1,59,Northern Suburbs,Public Referral,Unemployed,Private Vehicle,3.5,Weight Management,2025-03-01
+13,P00013,Female,73,Diabetes,1,74,Cape Town Central,Private Medical Aid,Employed,Public Transport,10.4,Diabetes Exercise Programme,2025-02-01
+14,P00014,Female,37,Cardiovascular,3,58,Northern Suburbs,Private Medical Aid,Employed,Walking,2.3,Cardiac Rehabilitation,2025-02-01
+15,P00015,Female,27,Musculoskeletal,2,57,Northern Suburbs,Public Referral,Unemployed,Private Vehicle,3.6,Musculoskeletal Rehabilitation,2025-01-01
+16,P00016,Female,26,Musculoskeletal,2,55,Cape Town Central,Public Referral,Employed,Public Transport,18.5,Musculoskeletal Rehabilitation,2025-02-01
+17,P00017,Female,70,Metabolic,0,45,Cape Town Central,Public Referral,Retired,Public Transport,13.3,Weight Management,2025-01-01
+18,P00018,Female,71,Cardiovascular,0,44,Cape Town Central,Private Medical Aid,Unemployed,Private Vehicle,23.8,Cardiac Rehabilitation,2025-01-01
+19,P00019,Female,29,Musculoskeletal,2,62,Northern Suburbs,Private Medical Aid,Unemployed,Public Transport,21.1,Musculoskeletal Rehabilitation,2025-02-01
+20,P00020,Female,22,Cardiovascular,0,23,Cape Town Central,Self-Pay,Employed,Public Transport,16.5,Cardiac Rehabilitation,2025-02-01
+21,P00021,Female,40,Musculoskeletal,2,48,Cape Town Central,Private Medical Aid,Retired,Family Support,13.5,Musculoskeletal Rehabilitation,2025-01-01
+22,P00022,Male,71,Musculoskeletal,1,64,Northern Suburbs,Self-Pay,Employed,Family Support,8.6,Musculoskeletal Rehabilitation,2025-02-01
+23,P00023,Female,20,Metabolic,0,28,Northern Suburbs,Private Medical Aid,Employed,Public Transport,1.0,Weight Management,2025-01-01
+24,P00024,Male,56,Musculoskeletal,1,45,Northern Suburbs,Self-Pay,Retired,Family Support,13.9,Musculoskeletal Rehabilitation,2025-01-01
+25,P00025,Female,68,Diabetes,2,74,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,13.8,Diabetes Exercise Programme,2025-02-01
+26,P00026,Female,38,Cardiovascular,1,50,Cape Town Central,Private Medical Aid,Employed,Public Transport,10.5,Cardiac Rehabilitation,2025-02-01
+27,P00027,Female,61,Musculoskeletal,2,65,Northern Suburbs,Self-Pay,Employed,Family Support,6.0,Musculoskeletal Rehabilitation,2025-03-01
+28,P00028,Male,41,Cardiovascular,1,48,Cape Town Central,Private Medical Aid,Employed,Walking,13.6,Cardiac Rehabilitation,2025-02-01
+29,P00029,Male,53,Musculoskeletal,1,52,Southern Suburbs,Private Medical Aid,Unemployed,Public Transport,21.8,Musculoskeletal Rehabilitation,2025-03-01
+30,P00030,Male,58,Diabetes,2,77,Southern Suburbs,Private Medical Aid,Employed,Public Transport,19.1,Diabetes Exercise Programme,2025-02-01
+31,P00031,Female,24,Metabolic,1,42,Southern Suburbs,Private Medical Aid,Employed,Public Transport,1,Weight Management,2025-01-01
+32,P00032,Female,67,Diabetes,1,63,Northern Suburbs,Self-Pay,Employed,Public Transport,14.2,Diabetes Exercise Programme,2025-02-01
+33,P00033,Female,39,Metabolic,1,44,Cape Town Central,Private Medical Aid,Unemployed,Public Transport,12.4,Weight Management,2025-01-01
+34,P00034,Female,36,Metabolic,2,60,Cape Town Central,Public Referral,Unemployed,Public Transport,9.8,Weight Management,2025-01-01
+35,P00035,Male,27,Metabolic,2,53,Cape Town Central,Public Referral,Unemployed,Public Transport,12.2,Weight Management,2025-03-01
+36,P00036,Female,28,Musculoskeletal,0,36,Southern Suburbs,Private Medical Aid,Employed,Public Transport,12.7,Musculoskeletal Rehabilitation,2025-03-01
+37,P00037,Female,23,Musculoskeletal,2,45,Northern Suburbs,Self-Pay,Retired,Family Support,15.2,Musculoskeletal Rehabilitation,2025-03-01
+38,P00038,Male,20,Cardiovascular,1,40,Northern Suburbs,Private Medical Aid,Employed,Private Vehicle,20.1,Cardiac Rehabilitation,2025-03-01
+39,P00039,Male,62,Musculoskeletal,3,70,Southern Suburbs,Public Referral,Student,Family Support,4.2,Musculoskeletal Rehabilitation,2025-03-01
+40,P00040,Male,18,Metabolic,2,48,Southern Suburbs,Self-Pay,Employed,Family Support,3.3,Weight Management,2025-02-01
+41,P00041,Female,73,Metabolic,0,58,Southern Suburbs,Self-Pay,Retired,Public Transport,11.5,Weight Management,2025-03-01
+42,P00042,Male,71,Metabolic,0,46,Northern Suburbs,Private Medical Aid,Employed,Private Vehicle,9.4,Weight Management,2025-03-01
+43,P00043,Female,23,Diabetes,1,54,Southern Suburbs,Public Referral,Employed,Public Transport,13.8,Diabetes Exercise Programme,2025-01-01
+44,P00044,Female,39,Metabolic,3,58,Northern Suburbs,Public Referral,Retired,Private Vehicle,19.9,Weight Management,2025-02-01
+45,P00045,Male,18,Musculoskeletal,3,62,Southern Suburbs,Self-Pay,Retired,Private Vehicle,21.0,Musculoskeletal Rehabilitation,2025-01-01
+46,P00046,Male,26,Musculoskeletal,2,59,Cape Town Central,Public Referral,Employed,Private Vehicle,14.5,Musculoskeletal Rehabilitation,2025-01-01
+47,P00047,Female,24,Musculoskeletal,1,33,Northern Suburbs,Public Referral,Retired,Family Support,11.4,Musculoskeletal Rehabilitation,2025-03-01
+48,P00048,Male,73,Cardiovascular,1,62,Cape Town Central,Private Medical Aid,Employed,Public Transport,9.8,Cardiac Rehabilitation,2025-02-01
+49,P00049,Female,72,Diabetes,0,61,Cape Town Central,Public Referral,Unemployed,Private Vehicle,14.0,Diabetes Exercise Programme,2025-03-01
+50,P00050,Female,56,Musculoskeletal,1,51,Cape Town Central,Private Medical Aid,Employed,Public Transport,26.6,Musculoskeletal Rehabilitation,2025-01-01
+51,P00051,Male,58,Musculoskeletal,1,61,Southern Suburbs,Private Medical Aid,Retired,Private Vehicle,30.0,Musculoskeletal Rehabilitation,2025-02-01
+52,P00052,Female,28,Diabetes,0,43,Northern Suburbs,Self-Pay,Employed,Private Vehicle,13.6,Diabetes Exercise Programme,2025-02-01
+53,P00053,Female,22,Diabetes,1,35,Cape Town Central,Self-Pay,Employed,Private Vehicle,2.9,Diabetes Exercise Programme,2025-01-01
+54,P00054,Male,59,Cardiovascular,1,51,Northern Suburbs,Self-Pay,Employed,Private Vehicle,1,Cardiac Rehabilitation,2025-01-01
+55,P00055,Male,34,Musculoskeletal,1,47,Cape Town Central,Self-Pay,Unemployed,Public Transport,2.4,Musculoskeletal Rehabilitation,2025-03-01
+56,P00056,Female,59,Musculoskeletal,2,61,Southern Suburbs,Private Medical Aid,Employed,Public Transport,18.1,Musculoskeletal Rehabilitation,2025-02-01
+57,P00057,Male,48,Cardiovascular,0,51,Northern Suburbs,Private Medical Aid,Student,Public Transport,1.2,Cardiac Rehabilitation,2025-01-01
+58,P00058,Male,71,Metabolic,1,53,Cape Town Central,Private Medical Aid,Retired,Family Support,14.7,Weight Management,2025-01-01
+59,P00059,Male,46,Metabolic,2,54,Southern Suburbs,Self-Pay,Unemployed,Public Transport,8.2,Weight Management,2025-01-01
+60,P00060,Female,34,Musculoskeletal,1,53,Southern Suburbs,Private Medical Aid,Employed,Public Transport,1,Musculoskeletal Rehabilitation,2025-01-01
+61,P00061,Male,30,Metabolic,0,38,Cape Town Central,Public Referral,Unemployed,Family Support,5.8,Weight Management,2025-02-01
+62,P00062,Female,40,Cardiovascular,0,40,Cape Town Central,Public Referral,Unemployed,Private Vehicle,6.6,Cardiac Rehabilitation,2025-03-01
+63,P00063,Male,33,Cardiovascular,3,62,Southern Suburbs,Self-Pay,Retired,Private Vehicle,13.0,Cardiac Rehabilitation,2025-02-01
+64,P00064,Male,59,Cardiovascular,1,81,Cape Town Central,Private Medical Aid,Employed,Public Transport,20.7,Cardiac Rehabilitation,2025-03-01
+65,P00065,Female,36,Cardiovascular,0,57,Southern Suburbs,Self-Pay,Student,Walking,20.9,Cardiac Rehabilitation,2025-01-01
+66,P00066,Female,61,Metabolic,1,67,Southern Suburbs,Public Referral,Retired,Public Transport,8.4,Weight Management,2025-02-01
+67,P00067,Male,29,Metabolic,1,38,Southern Suburbs,Private Medical Aid,Unemployed,Public Transport,14.4,Weight Management,2025-03-01
+68,P00068,Female,66,Diabetes,2,73,Northern Suburbs,Private Medical Aid,Unemployed,Family Support,19.9,Diabetes Exercise Programme,2025-02-01
+69,P00069,Male,71,Cardiovascular,2,90,Northern Suburbs,Private Medical Aid,Employed,Public Transport,9.3,Cardiac Rehabilitation,2025-03-01
+70,P00070,Female,21,Cardiovascular,2,55,Northern Suburbs,Private Medical Aid,Unemployed,Private Vehicle,16.7,Cardiac Rehabilitation,2025-03-01
+71,P00071,Female,63,Metabolic,0,64,Northern Suburbs,Public Referral,Retired,Family Support,1,Weight Management,2025-02-01
+72,P00072,Male,28,Metabolic,0,27,Southern Suburbs,Private Medical Aid,Employed,Walking,14.2,Weight Management,2025-02-01
+73,P00073,Female,26,Musculoskeletal,1,34,Cape Town Central,Self-Pay,Unemployed,Private Vehicle,14.2,Musculoskeletal Rehabilitation,2025-03-01
+74,P00074,Female,22,Metabolic,0,32,Cape Town Central,Self-Pay,Retired,Private Vehicle,5.0,Weight Management,2025-02-01
+75,P00075,Female,31,Musculoskeletal,0,24,Southern Suburbs,Private Medical Aid,Employed,Family Support,21.9,Musculoskeletal Rehabilitation,2025-02-01
+76,P00076,Male,68,Musculoskeletal,1,75,Northern Suburbs,Public Referral,Employed,Private Vehicle,27.8,Musculoskeletal Rehabilitation,2025-01-01
+77,P00077,Male,27,Cardiovascular,1,37,Cape Town Central,Public Referral,Retired,Private Vehicle,15.6,Cardiac Rehabilitation,2025-01-01
+78,P00078,Male,46,Diabetes,1,48,Northern Suburbs,Public Referral,Employed,Private Vehicle,15.8,Diabetes Exercise Programme,2025-01-01
+79,P00079,Female,37,Cardiovascular,1,50,Southern Suburbs,Public Referral,Employed,Public Transport,21.7,Cardiac Rehabilitation,2025-02-01
+80,P00080,Male,34,Diabetes,1,37,Southern Suburbs,Private Medical Aid,Unemployed,Private Vehicle,12.1,Diabetes Exercise Programme,2025-02-01
+81,P00081,Female,32,Diabetes,2,68,Northern Suburbs,Self-Pay,Retired,Family Support,13.8,Diabetes Exercise Programme,2025-03-01
+82,P00082,Male,42,Cardiovascular,1,51,Cape Town Central,Self-Pay,Employed,Private Vehicle,10.4,Cardiac Rehabilitation,2025-02-01
+83,P00083,Female,45,Musculoskeletal,1,47,Southern Suburbs,Public Referral,Unemployed,Private Vehicle,12.1,Musculoskeletal Rehabilitation,2025-03-01
+84,P00084,Female,26,Metabolic,2,50,Northern Suburbs,Private Medical Aid,Employed,Walking,15.7,Weight Management,2025-03-01
+85,P00085,Male,65,Diabetes,1,84,Southern Suburbs,Public Referral,Employed,Public Transport,1.3,Diabetes Exercise Programme,2025-02-01
+86,P00086,Female,26,Musculoskeletal,2,58,Northern Suburbs,Public Referral,Employed,Public Transport,8.5,Musculoskeletal Rehabilitation,2025-02-01
+87,P00087,Male,24,Diabetes,1,46,Cape Town Central,Self-Pay,Employed,Public Transport,18.2,Diabetes Exercise Programme,2025-03-01
+88,P00088,Male,52,Musculoskeletal,2,62,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,19.3,Musculoskeletal Rehabilitation,2025-01-01
+89,P00089,Male,69,Musculoskeletal,1,62,Southern Suburbs,Private Medical Aid,Employed,Public Transport,22.7,Musculoskeletal Rehabilitation,2025-01-01
+90,P00090,Male,42,Musculoskeletal,1,37,Northern Suburbs,Public Referral,Employed,Public Transport,15.0,Musculoskeletal Rehabilitation,2025-01-01
+91,P00091,Male,60,Cardiovascular,1,56,Southern Suburbs,Private Medical Aid,Employed,Family Support,25.2,Cardiac Rehabilitation,2025-01-01
+92,P00092,Male,43,Musculoskeletal,3,70,Cape Town Central,Public Referral,Employed,Public Transport,21.4,Musculoskeletal Rehabilitation,2025-02-01
+93,P00093,Female,21,Diabetes,0,28,Cape Town Central,Public Referral,Unemployed,Public Transport,4.2,Diabetes Exercise Programme,2025-02-01
+94,P00094,Male,31,Musculoskeletal,2,50,Northern Suburbs,Self-Pay,Unemployed,Private Vehicle,17.3,Musculoskeletal Rehabilitation,2025-01-01
+95,P00095,Male,63,Cardiovascular,2,77,Southern Suburbs,Private Medical Aid,Employed,Walking,23.3,Cardiac Rehabilitation,2025-02-01
+96,P00096,Female,50,Diabetes,0,45,Cape Town Central,Self-Pay,Unemployed,Public Transport,13.6,Diabetes Exercise Programme,2025-02-01
+97,P00097,Female,23,Musculoskeletal,1,34,Southern Suburbs,Private Medical Aid,Employed,Walking,10.7,Musculoskeletal Rehabilitation,2025-03-01
+98,P00098,Male,30,Musculoskeletal,1,42,Cape Town Central,Public Referral,Employed,Family Support,25.9,Musculoskeletal Rehabilitation,2025-03-01
+99,P00099,Male,57,Cardiovascular,0,58,Southern Suburbs,Private Medical Aid,Employed,Public Transport,31.9,Cardiac Rehabilitation,2025-01-01
+100,P00100,Female,46,Cardiovascular,1,57,Southern Suburbs,Private Medical Aid,Unemployed,Walking,20.2,Cardiac Rehabilitation,2025-01-01
+101,P00101,Male,38,Metabolic,2,43,Southern Suburbs,Public Referral,Student,Private Vehicle,11.3,Weight Management,2025-02-01
+102,P00102,Female,32,Diabetes,2,53,Southern Suburbs,Private Medical Aid,Employed,Family Support,10.0,Diabetes Exercise Programme,2025-02-01
+103,P00103,Female,27,Diabetes,3,66,Cape Town Central,Private Medical Aid,Unemployed,Private Vehicle,14.2,Diabetes Exercise Programme,2025-03-01
+104,P00104,Female,48,Diabetes,0,26,Southern Suburbs,Private Medical Aid,Employed,Family Support,14.2,Diabetes Exercise Programme,2025-03-01
+105,P00105,Female,74,Diabetes,2,65,Northern Suburbs,Public Referral,Employed,Private Vehicle,9.5,Diabetes Exercise Programme,2025-02-01
+106,P00106,Male,56,Metabolic,1,54,Northern Suburbs,Public Referral,Retired,Family Support,5.7,Weight Management,2025-02-01
+107,P00107,Male,25,Metabolic,0,30,Cape Town Central,Public Referral,Retired,Public Transport,22.1,Weight Management,2025-01-01
+108,P00108,Female,43,Diabetes,3,72,Southern Suburbs,Private Medical Aid,Employed,Public Transport,13.3,Diabetes Exercise Programme,2025-02-01
+109,P00109,Male,61,Cardiovascular,2,84,Cape Town Central,Public Referral,Employed,Private Vehicle,10.4,Cardiac Rehabilitation,2025-02-01
+110,P00110,Female,52,Diabetes,3,67,Northern Suburbs,Public Referral,Retired,Public Transport,24.0,Diabetes Exercise Programme,2025-01-01
+111,P00111,Female,32,Diabetes,2,64,Northern Suburbs,Public Referral,Retired,Public Transport,11.4,Diabetes Exercise Programme,2025-01-01
+112,P00112,Male,24,Cardiovascular,2,51,Cape Town Central,Public Referral,Employed,Private Vehicle,15.6,Cardiac Rehabilitation,2025-02-01
+113,P00113,Female,43,Musculoskeletal,2,55,Cape Town Central,Private Medical Aid,Retired,Public Transport,13.0,Musculoskeletal Rehabilitation,2025-03-01
+114,P00114,Male,65,Metabolic,2,68,Southern Suburbs,Public Referral,Retired,Family Support,15.0,Weight Management,2025-03-01
+115,P00115,Female,64,Musculoskeletal,2,55,Southern Suburbs,Private Medical Aid,Unemployed,Private Vehicle,13.4,Musculoskeletal Rehabilitation,2025-02-01
+116,P00116,Male,39,Diabetes,1,43,Northern Suburbs,Private Medical Aid,Employed,Public Transport,22.6,Diabetes Exercise Programme,2025-02-01
+117,P00117,Male,39,Cardiovascular,3,71,Cape Town Central,Public Referral,Unemployed,Private Vehicle,13.0,Cardiac Rehabilitation,2025-02-01
+118,P00118,Male,56,Cardiovascular,0,46,Northern Suburbs,Private Medical Aid,Retired,Private Vehicle,4.0,Cardiac Rehabilitation,2025-03-01
+119,P00119,Female,51,Metabolic,2,54,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,15.2,Weight Management,2025-03-01
+120,P00120,Female,68,Cardiovascular,1,56,Cape Town Central,Public Referral,Student,Private Vehicle,3.0,Cardiac Rehabilitation,2025-02-01
+121,P00121,Male,52,Cardiovascular,0,49,Cape Town Central,Private Medical Aid,Unemployed,Private Vehicle,8.1,Cardiac Rehabilitation,2025-01-01
+122,P00122,Female,34,Diabetes,1,44,Cape Town Central,Public Referral,Retired,Private Vehicle,12.2,Diabetes Exercise Programme,2025-03-01
+123,P00123,Female,33,Cardiovascular,0,34,Southern Suburbs,Private Medical Aid,Employed,Public Transport,30.4,Cardiac Rehabilitation,2025-02-01
+124,P00124,Female,26,Musculoskeletal,2,55,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,18.7,Musculoskeletal Rehabilitation,2025-03-01
+125,P00125,Male,69,Cardiovascular,2,83,Northern Suburbs,Self-Pay,Employed,Family Support,16.0,Cardiac Rehabilitation,2025-02-01
+126,P00126,Male,18,Diabetes,1,46,Southern Suburbs,Private Medical Aid,Retired,Family Support,14.1,Diabetes Exercise Programme,2025-01-01
+127,P00127,Male,62,Metabolic,1,46,Southern Suburbs,Private Medical Aid,Student,Public Transport,1.6,Weight Management,2025-02-01
+128,P00128,Female,42,Metabolic,2,48,Northern Suburbs,Public Referral,Retired,Public Transport,21.3,Weight Management,2025-02-01
+129,P00129,Male,64,Cardiovascular,0,47,Northern Suburbs,Self-Pay,Retired,Public Transport,2.7,Cardiac Rehabilitation,2025-01-01
+130,P00130,Male,26,Diabetes,1,56,Cape Town Central,Private Medical Aid,Student,Walking,9.5,Diabetes Exercise Programme,2025-02-01
+131,P00131,Male,34,Cardiovascular,0,48,Southern Suburbs,Self-Pay,Unemployed,Family Support,8.8,Cardiac Rehabilitation,2025-01-01
+132,P00132,Male,49,Diabetes,0,37,Northern Suburbs,Public Referral,Employed,Private Vehicle,1,Diabetes Exercise Programme,2025-01-01
+133,P00133,Female,59,Cardiovascular,0,55,Southern Suburbs,Private Medical Aid,Employed,Walking,25.1,Cardiac Rehabilitation,2025-01-01
+134,P00134,Female,34,Diabetes,1,48,Northern Suburbs,Private Medical Aid,Student,Public Transport,11.1,Diabetes Exercise Programme,2025-01-01
+135,P00135,Male,28,Metabolic,3,56,Northern Suburbs,Private Medical Aid,Student,Public Transport,16.8,Weight Management,2025-01-01
+136,P00136,Male,33,Cardiovascular,3,67,Northern Suburbs,Public Referral,Unemployed,Public Transport,12.5,Cardiac Rehabilitation,2025-02-01
+137,P00137,Male,27,Metabolic,1,41,Cape Town Central,Private Medical Aid,Employed,Family Support,1,Weight Management,2025-02-01
+138,P00138,Male,71,Metabolic,1,76,Northern Suburbs,Public Referral,Student,Public Transport,15.1,Weight Management,2025-02-01
+139,P00139,Male,29,Musculoskeletal,1,54,Cape Town Central,Public Referral,Retired,Private Vehicle,16.1,Musculoskeletal Rehabilitation,2025-01-01
+140,P00140,Male,71,Diabetes,0,47,Cape Town Central,Public Referral,Unemployed,Private Vehicle,16.9,Diabetes Exercise Programme,2025-01-01
+141,P00141,Female,25,Musculoskeletal,2,53,Cape Town Central,Private Medical Aid,Unemployed,Private Vehicle,18.8,Musculoskeletal Rehabilitation,2025-01-01
+142,P00142,Female,61,Diabetes,1,68,Southern Suburbs,Self-Pay,Unemployed,Private Vehicle,6.0,Diabetes Exercise Programme,2025-02-01
+143,P00143,Male,65,Diabetes,2,74,Cape Town Central,Public Referral,Retired,Walking,2.9,Diabetes Exercise Programme,2025-02-01
+144,P00144,Male,21,Diabetes,0,30,Northern Suburbs,Public Referral,Student,Private Vehicle,1,Diabetes Exercise Programme,2025-01-01
+145,P00145,Female,75,Metabolic,0,65,Northern Suburbs,Private Medical Aid,Retired,Public Transport,11.6,Weight Management,2025-03-01
+146,P00146,Female,26,Diabetes,1,50,Northern Suburbs,Public Referral,Retired,Public Transport,9.5,Diabetes Exercise Programme,2025-02-01
+147,P00147,Male,55,Diabetes,1,55,Cape Town Central,Private Medical Aid,Employed,Private Vehicle,19.2,Diabetes Exercise Programme,2025-03-01
+148,P00148,Male,23,Musculoskeletal,2,49,Cape Town Central,Private Medical Aid,Retired,Private Vehicle,24.9,Musculoskeletal Rehabilitation,2025-02-01
+149,P00149,Male,62,Cardiovascular,0,47,Southern Suburbs,Private Medical Aid,Employed,Walking,7.1,Cardiac Rehabilitation,2025-01-01
+150,P00150,Female,30,Diabetes,3,66,Northern Suburbs,Private Medical Aid,Employed,Public Transport,9.5,Diabetes Exercise Programme,2025-03-01
+151,P00151,Female,35,Metabolic,1,31,Cape Town Central,Public Referral,Employed,Family Support,16.4,Weight Management,2025-03-01
+152,P00152,Female,58,Metabolic,2,68,Southern Suburbs,Private Medical Aid,Retired,Public Transport,22.1,Weight Management,2025-03-01
+153,P00153,Female,26,Cardiovascular,0,26,Southern Suburbs,Self-Pay,Unemployed,Public Transport,21.0,Cardiac Rehabilitation,2025-02-01
+154,P00154,Male,20,Metabolic,0,42,Southern Suburbs,Public Referral,Unemployed,Family Support,15.5,Weight Management,2025-01-01
+155,P00155,Male,60,Musculoskeletal,1,56,Cape Town Central,Public Referral,Employed,Family Support,24.5,Musculoskeletal Rehabilitation,2025-01-01
+156,P00156,Male,39,Musculoskeletal,3,63,Southern Suburbs,Private Medical Aid,Employed,Public Transport,23.8,Musculoskeletal Rehabilitation,2025-02-01
+157,P00157,Male,73,Diabetes,2,72,Cape Town Central,Public Referral,Employed,Private Vehicle,14.5,Diabetes Exercise Programme,2025-03-01
+158,P00158,Male,44,Cardiovascular,1,52,Cape Town Central,Private Medical Aid,Unemployed,Family Support,5.1,Cardiac Rehabilitation,2025-03-01
+159,P00159,Male,58,Cardiovascular,2,83,Northern Suburbs,Private Medical Aid,Unemployed,Family Support,29.9,Cardiac Rehabilitation,2025-03-01
+160,P00160,Female,61,Metabolic,1,62,Southern Suburbs,Private Medical Aid,Employed,Public Transport,2.2,Weight Management,2025-02-01
+161,P00161,Male,40,Metabolic,2,56,Southern Suburbs,Private Medical Aid,Student,Private Vehicle,19.5,Weight Management,2025-01-01
+162,P00162,Female,59,Metabolic,2,69,Cape Town Central,Private Medical Aid,Unemployed,Public Transport,15.7,Weight Management,2025-03-01
+163,P00163,Female,44,Musculoskeletal,0,51,Southern Suburbs,Self-Pay,Employed,Private Vehicle,9.0,Musculoskeletal Rehabilitation,2025-01-01
+164,P00164,Female,34,Cardiovascular,3,58,Cape Town Central,Private Medical Aid,Student,Private Vehicle,1,Cardiac Rehabilitation,2025-03-01
+165,P00165,Female,63,Metabolic,2,63,Cape Town Central,Private Medical Aid,Employed,Private Vehicle,6.3,Weight Management,2025-03-01
+166,P00166,Male,75,Metabolic,0,68,Southern Suburbs,Private Medical Aid,Retired,Public Transport,17.6,Weight Management,2025-02-01
+167,P00167,Male,29,Diabetes,0,36,Northern Suburbs,Private Medical Aid,Employed,Family Support,16.4,Diabetes Exercise Programme,2025-02-01
+168,P00168,Male,71,Diabetes,1,62,Southern Suburbs,Self-Pay,Employed,Public Transport,14.8,Diabetes Exercise Programme,2025-01-01
+169,P00169,Male,24,Cardiovascular,1,42,Cape Town Central,Public Referral,Employed,Public Transport,16.3,Cardiac Rehabilitation,2025-03-01
+170,P00170,Male,28,Musculoskeletal,1,40,Northern Suburbs,Private Medical Aid,Unemployed,Private Vehicle,2.4,Musculoskeletal Rehabilitation,2025-02-01
+171,P00171,Female,21,Musculoskeletal,1,38,Cape Town Central,Private Medical Aid,Student,Family Support,17.8,Musculoskeletal Rehabilitation,2025-02-01
+172,P00172,Female,71,Metabolic,0,43,Southern Suburbs,Private Medical Aid,Retired,Private Vehicle,10.2,Weight Management,2025-03-01
+173,P00173,Female,75,Cardiovascular,2,89,Northern Suburbs,Private Medical Aid,Employed,Private Vehicle,17.8,Cardiac Rehabilitation,2025-02-01
+174,P00174,Male,34,Musculoskeletal,2,48,Cape Town Central,Self-Pay,Retired,Family Support,17.1,Musculoskeletal Rehabilitation,2025-03-01
+175,P00175,Male,38,Musculoskeletal,2,45,Cape Town Central,Self-Pay,Employed,Private Vehicle,15.6,Musculoskeletal Rehabilitation,2025-03-01
+176,P00176,Male,20,Metabolic,1,36,Southern Suburbs,Private Medical Aid,Student,Public Transport,15.2,Weight Management,2025-01-01
+177,P00177,Female,42,Diabetes,2,63,Southern Suburbs,Private Medical Aid,Student,Public Transport,20.4,Diabetes Exercise Programme,2025-03-01
+178,P00178,Male,41,Diabetes,0,38,Southern Suburbs,Private Medical Aid,Retired,Public Transport,18.1,Diabetes Exercise Programme,2025-01-01
+179,P00179,Female,47,Cardiovascular,1,32,Northern Suburbs,Public Referral,Employed,Walking,25.0,Cardiac Rehabilitation,2025-03-01
+180,P00180,Male,74,Diabetes,2,67,Northern Suburbs,Public Referral,Unemployed,Public Transport,10.5,Diabetes Exercise Programme,2025-03-01
+181,P00181,Male,31,Diabetes,0,37,Cape Town Central,Public Referral,Retired,Private Vehicle,25.6,Diabetes Exercise Programme,2025-03-01
+182,P00182,Female,69,Musculoskeletal,1,58,Southern Suburbs,Self-Pay,Retired,Public Transport,9.6,Musculoskeletal Rehabilitation,2025-03-01
+183,P00183,Female,22,Diabetes,2,67,Southern Suburbs,Private Medical Aid,Retired,Private Vehicle,20.7,Diabetes Exercise Programme,2025-03-01
+184,P00184,Male,66,Musculoskeletal,1,58,Northern Suburbs,Public Referral,Unemployed,Private Vehicle,23.4,Musculoskeletal Rehabilitation,2025-02-01
+185,P00185,Female,60,Musculoskeletal,1,59,Cape Town Central,Public Referral,Employed,Private Vehicle,13.9,Musculoskeletal Rehabilitation,2025-03-01
+186,P00186,Female,66,Cardiovascular,1,66,Northern Suburbs,Self-Pay,Employed,Public Transport,25.2,Cardiac Rehabilitation,2025-01-01
+187,P00187,Female,65,Diabetes,3,95,Northern Suburbs,Self-Pay,Retired,Public Transport,13.2,Diabetes Exercise Programme,2025-01-01
+188,P00188,Male,19,Metabolic,1,34,Cape Town Central,Self-Pay,Retired,Public Transport,10.7,Weight Management,2025-03-01
+189,P00189,Male,49,Musculoskeletal,1,49,Cape Town Central,Private Medical Aid,Retired,Family Support,24.0,Musculoskeletal Rehabilitation,2025-02-01
+190,P00190,Female,65,Metabolic,1,59,Southern Suburbs,Public Referral,Employed,Private Vehicle,18.1,Weight Management,2025-02-01
+191,P00191,Male,32,Diabetes,2,52,Southern Suburbs,Public Referral,Unemployed,Public Transport,1,Diabetes Exercise Programme,2025-01-01
+192,P00192,Female,45,Musculoskeletal,1,45,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,12.4,Musculoskeletal Rehabilitation,2025-03-01
+193,P00193,Female,28,Cardiovascular,2,58,Northern Suburbs,Self-Pay,Student,Family Support,6.4,Cardiac Rehabilitation,2025-03-01
+194,P00194,Male,60,Musculoskeletal,2,61,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,11.1,Musculoskeletal Rehabilitation,2025-03-01
+195,P00195,Male,25,Metabolic,1,32,Northern Suburbs,Public Referral,Unemployed,Public Transport,10.8,Weight Management,2025-02-01
+196,P00196,Male,30,Cardiovascular,1,54,Northern Suburbs,Self-Pay,Employed,Public Transport,8.5,Cardiac Rehabilitation,2025-02-01
+197,P00197,Female,38,Metabolic,2,41,Northern Suburbs,Private Medical Aid,Employed,Public Transport,19.5,Weight Management,2025-03-01
+198,P00198,Female,52,Cardiovascular,1,60,Cape Town Central,Private Medical Aid,Unemployed,Private Vehicle,19.5,Cardiac Rehabilitation,2025-03-01
+199,P00199,Male,50,Metabolic,0,42,Cape Town Central,Private Medical Aid,Employed,Walking,6.7,Weight Management,2025-02-01
+200,P00200,Female,43,Musculoskeletal,1,50,Cape Town Central,Self-Pay,Retired,Public Transport,7.8,Musculoskeletal Rehabilitation,2025-03-01
+201,P00201,Female,32,Metabolic,3,62,Northern Suburbs,Self-Pay,Unemployed,Private Vehicle,12.2,Weight Management,2025-02-01
+202,P00202,Female,62,Musculoskeletal,2,62,Northern Suburbs,Private Medical Aid,Unemployed,Public Transport,17.3,Musculoskeletal Rehabilitation,2025-03-01
+203,P00203,Male,48,Cardiovascular,0,52,Cape Town Central,Private Medical Aid,Retired,Public Transport,11.9,Cardiac Rehabilitation,2025-01-01
+204,P00204,Male,59,Metabolic,2,61,Northern Suburbs,Private Medical Aid,Employed,Private Vehicle,5.3,Weight Management,2025-01-01
+205,P00205,Female,48,Diabetes,0,43,Northern Suburbs,Private Medical Aid,Retired,Family Support,4.8,Diabetes Exercise Programme,2025-02-01
+206,P00206,Female,45,Diabetes,3,51,Cape Town Central,Private Medical Aid,Employed,Family Support,3.4,Diabetes Exercise Programme,2025-02-01
+207,P00207,Female,28,Musculoskeletal,2,47,Cape Town Central,Private Medical Aid,Employed,Private Vehicle,7.6,Musculoskeletal Rehabilitation,2025-02-01
+208,P00208,Female,34,Musculoskeletal,2,56,Southern Suburbs,Private Medical Aid,Unemployed,Family Support,25.9,Musculoskeletal Rehabilitation,2025-03-01
+209,P00209,Female,19,Cardiovascular,1,56,Northern Suburbs,Private Medical Aid,Employed,Private Vehicle,21.5,Cardiac Rehabilitation,2025-01-01
+210,P00210,Female,72,Metabolic,3,81,Southern Suburbs,Self-Pay,Retired,Public Transport,13.0,Weight Management,2025-03-01
+211,P00211,Female,35,Diabetes,2,63,Northern Suburbs,Private Medical Aid,Employed,Public Transport,28.7,Diabetes Exercise Programme,2025-03-01
+212,P00212,Female,40,Musculoskeletal,1,52,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,28.7,Musculoskeletal Rehabilitation,2025-01-01
+213,P00213,Female,22,Musculoskeletal,2,43,Cape Town Central,Private Medical Aid,Unemployed,Family Support,3.1,Musculoskeletal Rehabilitation,2025-02-01
+214,P00214,Female,73,Musculoskeletal,0,68,Northern Suburbs,Public Referral,Employed,Family Support,19.5,Musculoskeletal Rehabilitation,2025-02-01
+215,P00215,Female,51,Musculoskeletal,1,48,Cape Town Central,Private Medical Aid,Employed,Walking,17.1,Musculoskeletal Rehabilitation,2025-02-01
+216,P00216,Female,31,Diabetes,1,54,Southern Suburbs,Self-Pay,Unemployed,Public Transport,2.6,Diabetes Exercise Programme,2025-02-01
+217,P00217,Male,28,Diabetes,1,59,Cape Town Central,Self-Pay,Employed,Public Transport,13.8,Diabetes Exercise Programme,2025-01-01
+218,P00218,Male,70,Cardiovascular,1,75,Cape Town Central,Self-Pay,Unemployed,Public Transport,13.7,Cardiac Rehabilitation,2025-03-01
+219,P00219,Female,19,Cardiovascular,2,59,Northern Suburbs,Public Referral,Employed,Public Transport,11.4,Cardiac Rehabilitation,2025-02-01
+220,P00220,Male,54,Diabetes,1,55,Northern Suburbs,Public Referral,Unemployed,Private Vehicle,9.5,Diabetes Exercise Programme,2025-01-01
+221,P00221,Female,48,Musculoskeletal,2,45,Southern Suburbs,Private Medical Aid,Student,Walking,15.6,Musculoskeletal Rehabilitation,2025-02-01
+222,P00222,Female,41,Cardiovascular,1,46,Northern Suburbs,Self-Pay,Unemployed,Public Transport,20.9,Cardiac Rehabilitation,2025-01-01
+223,P00223,Male,69,Cardiovascular,0,58,Cape Town Central,Self-Pay,Employed,Public Transport,24.2,Cardiac Rehabilitation,2025-01-01
+224,P00224,Male,28,Diabetes,2,56,Northern Suburbs,Self-Pay,Unemployed,Public Transport,13.0,Diabetes Exercise Programme,2025-01-01
+225,P00225,Male,30,Musculoskeletal,1,44,Southern Suburbs,Private Medical Aid,Unemployed,Private Vehicle,1,Musculoskeletal Rehabilitation,2025-01-01
+226,P00226,Male,72,Diabetes,0,51,Southern Suburbs,Private Medical Aid,Employed,Public Transport,4.0,Diabetes Exercise Programme,2025-01-01
+227,P00227,Female,74,Musculoskeletal,1,52,Northern Suburbs,Private Medical Aid,Employed,Public Transport,3.1,Musculoskeletal Rehabilitation,2025-01-01
+228,P00228,Male,57,Musculoskeletal,1,57,Southern Suburbs,Private Medical Aid,Employed,Public Transport,25.1,Musculoskeletal Rehabilitation,2025-01-01
+229,P00229,Female,32,Metabolic,2,51,Cape Town Central,Self-Pay,Retired,Private Vehicle,20.4,Weight Management,2025-02-01
+230,P00230,Female,55,Musculoskeletal,3,75,Southern Suburbs,Public Referral,Student,Private Vehicle,20.4,Musculoskeletal Rehabilitation,2025-01-01
+231,P00231,Male,63,Musculoskeletal,0,40,Southern Suburbs,Public Referral,Employed,Walking,1.8,Musculoskeletal Rehabilitation,2025-02-01
+232,P00232,Female,71,Musculoskeletal,1,60,Southern Suburbs,Private Medical Aid,Employed,Private Vehicle,12.9,Musculoskeletal Rehabilitation,2025-01-01
+233,P00233,Male,40,Musculoskeletal,1,39,Northern Suburbs,Public Referral,Unemployed,Public Transport,12.2,Musculoskeletal Rehabilitation,2025-03-01
+234,P00234,Male,50,Cardiovascular,1,62,Southern Suburbs,Private Medical Aid,Unemployed,Public Transport,17.5,Cardiac Rehabilitation,2025-03-01
+235,P00235,Female,35,Musculoskeletal,2,37,Cape Town Central,Public Referral,Employed,Public Transport,9.0,Musculoskeletal Rehabilitation,2025-01-01
+236,P00236,Male,29,Cardiovascular,2,55,Cape Town Central,Private Medical Aid,Unemployed,Private Vehicle,20.4,Cardiac Rehabilitation,2025-01-01
+237,P00237,Male,28,Musculoskeletal,2,63,Cape Town Central,Self-Pay,Retired,Private Vehicle,12.4,Musculoskeletal Rehabilitation,2025-03-01
+238,P00238,Female,64,Cardiovascular,2,77,Northern Suburbs,Public Referral,Retired,Private Vehicle,19.8,Cardiac Rehabilitation,2025-01-01
+239,P00239,Male,74,Metabolic,3,72,Northern Suburbs,Private Medical Aid,Student,Private Vehicle,14.0,Weight Management,2025-03-01
+240,P00240,Female,74,Diabetes,2,76,Northern Suburbs,Private Medical Aid,Employed,Public Transport,17.2,Diabetes Exercise Programme,2025-01-01
+241,P00241,Male,24,Cardiovascular,0,39,Cape Town Central,Public Referral,Student,Public Transport,16.7,Cardiac Rehabilitation,2025-01-01
+242,P00242,Male,29,Diabetes,2,64,Northern Suburbs,Private Medical Aid,Employed,Private Vehicle,24.1,Diabetes Exercise Programme,2025-01-01
+243,P00243,Male,23,Cardiovascular,0,34,Southern Suburbs,Private Medical Aid,Employed,Public Transport,17.9,Cardiac Rehabilitation,2025-02-01
+244,P00244,Male,61,Musculoskeletal,3,80,Southern Suburbs,Private Medical Aid,Employed,Public Transport,11.1,Musculoskeletal Rehabilitation,2025-01-01
+245,P00245,Male,33,Diabetes,2,62,Cape Town Central,Private Medical Aid,Retired,Public Transport,21.0,Diabetes Exercise Programme,2025-01-01
+246,P00246,Male,31,Metabolic,2,45,Cape Town Central,Private Medical Aid,Employed,Private Vehicle,6.3,Weight Management,2025-01-01
+247,P00247,Female,75,Cardiovascular,3,71,Northern Suburbs,Public Referral,Unemployed,Public Transport,14.3,Cardiac Rehabilitation,2025-01-01
+248,P00248,Female,27,Metabolic,0,44,Cape Town Central,Public Referral,Employed,Private Vehicle,19.2,Weight Management,2025-03-01
+249,P00249,Female,53,Cardiovascular,3,74,Southern Suburbs,Private Medical Aid,Employed,Public Transport,9.6,Cardiac Rehabilitation,2025-02-01
+250,P00250,Male,20,Metabolic,1,45,Southern Suburbs,Self-Pay,Retired,Family Support,20.2,Weight Management,2025-03-01
